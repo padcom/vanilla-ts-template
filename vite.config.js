@@ -21,7 +21,7 @@ export default defineConfig({
   },
   plugins: [
     svg({
-      defaultImport: 'component',
+      defaultImport: 'raw',
     }),
     eslint({
       lintOnStart: false,
