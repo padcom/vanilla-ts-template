@@ -1,0 +1,7 @@
+:root {
+  --ctl-example: #202080;
+}
+
+hello-world {
+  --color: var(--ctl-example);
+}
